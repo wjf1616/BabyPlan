@@ -40,9 +40,5 @@ var jsFiles = [
     "src/game/view/ui/DengluLayer.js", 
     "src/game/view/ui/LoadingLayer.js", 
     "src/game/view/ui/MainCityLayer.js", 
-    "src/game/view/ui/SetupLayer.js", 
-    "src/game/view/utils/EntitySprite.js", 
-    "src/game/view/utils/ShortestPathStep.js", 
-    "src/game/view/utils/TiledMapLayer.js", 
-    "src/game/view/world/WorldLayer.js"
+    "src/game/view/ui/SetupLayer.js"
 ];
