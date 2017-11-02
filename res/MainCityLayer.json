@@ -1,5 +1,5 @@
 {
-  "ID": "75525270-1a62-4c36-ac59-de4b49fa0413",
+  "ID": "4f9bce78-6d58-4adf-98a3-16b08d144d9f",
   "Version": "3.10.0.0",
   "Name": "MainCityLayer",
   "Content": {
@@ -12,18 +12,18 @@
       },
       "AnimationList": [],
       "ObjectData": {
-        "Tag": 10,
+        "Tag": 6,
         "Children": [
           {
             "FileData": {
               "Type": "Normal",
-              "Path": "img/zhandouditu_lj_1.png",
+              "Path": "img/bg_denglu.png",
               "Plist": ""
             },
-            "Scale9OriginX": 396,
-            "Scale9OriginY": 211,
-            "Scale9Width": 408,
-            "Scale9Height": 218,
+            "Scale9OriginX": 171,
+            "Scale9OriginY": 96,
+            "Scale9Width": 178,
+            "Scale9Height": 101,
             "AnchorPoint": {
               "ScaleX": 0.5,
               "ScaleY": 0.5
@@ -48,237 +48,241 @@
               "X": 1.0,
               "Y": 1.0
             },
-            "Tag": 11,
-            "ActionTag": 1253770780,
+            "Tag": 7,
+            "Children": [
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "img/touming.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "img/touming.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "button/btn_guanbi.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 70,
+                "Scale9Height": 78,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1067.983,
+                  "Y": 582.8591
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9401,
+                  "Y": 0.9107
+                },
+                "PreSize": {
+                  "X": 0.088,
+                  "Y": 0.1562
+                },
+                "LeftMargin": 1017.983,
+                "RightMargin": 18.017,
+                "TopMargin": 7.1409,
+                "BottomMargin": 532.8591,
+                "Tag": 8,
+                "ActionTag": -1393377843,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 100.0
+                },
+                "Name": "btn_level",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "img/touming.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "img/touming.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "button/btn_guanbi.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 70,
+                "Scale9Height": 78,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 963.5756,
+                  "Y": 61.4982
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8482,
+                  "Y": 0.0961
+                },
+                "PreSize": {
+                  "X": 0.088,
+                  "Y": 0.1562
+                },
+                "LeftMargin": 913.5756,
+                "RightMargin": 122.4244,
+                "TopMargin": 528.5018,
+                "BottomMargin": 11.4982,
+                "Tag": 9,
+                "ActionTag": -386126718,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 100.0
+                },
+                "Name": "btn_seting",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "img/touming.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "img/touming.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "button/btn_guanbi.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 70,
+                "Scale9Height": 78,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1057.1816,
+                  "Y": 63.6325
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9306,
+                  "Y": 0.0994
+                },
+                "PreSize": {
+                  "X": 0.088,
+                  "Y": 0.1562
+                },
+                "LeftMargin": 1007.1816,
+                "RightMargin": 28.8184,
+                "TopMargin": 526.3676,
+                "BottomMargin": 13.6325,
+                "Tag": 10,
+                "ActionTag": 435553335,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 100.0
+                },
+                "Name": "btn_kill",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": 1115733735,
             "Size": {
               "X": 1136.0,
               "Y": 640.0
             },
-            "Name": "Image_1",
+            "Name": "bgcontent",
             "ctype": "ImageViewObjectData"
-          },
-          {
-            "FontSize": 14,
-            "ButtonText": "",
-            "TextColor": {
-              "R": 65,
-              "G": 65,
-              "B": 70
-            },
-            "DisabledFileData": {
-              "Type": "Normal",
-              "Path": "img/touming.png",
-              "Plist": ""
-            },
-            "PressedFileData": {
-              "Type": "Normal",
-              "Path": "button/ditu_fanhui.png",
-              "Plist": ""
-            },
-            "NormalFileData": {
-              "Type": "Normal",
-              "Path": "button/ditu_fanhui.png",
-              "Plist": ""
-            },
-            "Scale9Enable": true,
-            "Scale9OriginX": 15,
-            "Scale9OriginY": 11,
-            "Scale9Width": 54,
-            "Scale9Height": 52,
-            "OutlineColor": {
-              "G": 0,
-              "B": 0
-            },
-            "ShadowColor": {
-              "R": 110,
-              "G": 110,
-              "B": 110
-            },
-            "ShadowOffsetX": 2.0,
-            "ShadowOffsetY": -2.0,
-            "TouchEnable": true,
-            "AnchorPoint": {
-              "ScaleX": 0.5,
-              "ScaleY": 0.5
-            },
-            "Position": {
-              "X": 1074.0,
-              "Y": 583.0
-            },
-            "Scale": {
-              "ScaleX": 1.0,
-              "ScaleY": 1.0
-            },
-            "CColor": {},
-            "IconVisible": false,
-            "PrePosition": {
-              "X": 0.9454,
-              "Y": 0.9109
-            },
-            "PreSize": {
-              "X": 0.0739,
-              "Y": 0.1156
-            },
-            "HorizontalEdge": "RightEdge",
-            "VerticalEdge": "TopEdge",
-            "LeftMargin": 1032.0,
-            "RightMargin": 20.0,
-            "TopMargin": 20.0,
-            "BottomMargin": 546.0,
-            "Tag": 12,
-            "ActionTag": -1310086672,
-            "Size": {
-              "X": 84.0,
-              "Y": 74.0
-            },
-            "Name": "Button_1",
-            "ctype": "ButtonObjectData"
-          },
-          {
-            "FontSize": 25,
-            "ButtonText": "游戏设置",
-            "TextColor": {},
-            "DisabledFileData": {
-              "Type": "Normal",
-              "Path": "button/button_hui1.png",
-              "Plist": ""
-            },
-            "PressedFileData": {
-              "Type": "Normal",
-              "Path": "button/button_huang1.png",
-              "Plist": ""
-            },
-            "NormalFileData": {
-              "Type": "Normal",
-              "Path": "button/button_huang1.png",
-              "Plist": ""
-            },
-            "Scale9Enable": true,
-            "Scale9OriginX": 15,
-            "Scale9OriginY": 11,
-            "Scale9Width": 98,
-            "Scale9Height": 35,
-            "OutlineColor": {
-              "G": 0,
-              "B": 0
-            },
-            "ShadowColor": {
-              "R": 110,
-              "G": 110,
-              "B": 110
-            },
-            "ShadowOffsetX": 2.0,
-            "ShadowOffsetY": -2.0,
-            "TouchEnable": true,
-            "AnchorPoint": {
-              "ScaleX": 0.5,
-              "ScaleY": 0.5
-            },
-            "Position": {
-              "X": 1022.0,
-              "Y": 78.5
-            },
-            "Scale": {
-              "ScaleX": 1.0,
-              "ScaleY": 1.0
-            },
-            "CColor": {},
-            "IconVisible": false,
-            "PrePosition": {
-              "X": 0.8996,
-              "Y": 0.1227
-            },
-            "PreSize": {
-              "X": 0.1127,
-              "Y": 0.0891
-            },
-            "HorizontalEdge": "RightEdge",
-            "VerticalEdge": "BottomEdge",
-            "LeftMargin": 958.0,
-            "RightMargin": 50.0,
-            "TopMargin": 533.0,
-            "BottomMargin": 50.0,
-            "Tag": 18,
-            "ActionTag": -1775775757,
-            "Size": {
-              "X": 128.0,
-              "Y": 57.0
-            },
-            "Name": "Button_2",
-            "ctype": "ButtonObjectData"
-          },
-          {
-            "FontSize": 25,
-            "ButtonText": "生命值",
-            "TextColor": {},
-            "DisabledFileData": {
-              "Type": "Normal",
-              "Path": "button/button_hui1.png",
-              "Plist": ""
-            },
-            "PressedFileData": {
-              "Type": "Normal",
-              "Path": "button/button_huang1.png",
-              "Plist": ""
-            },
-            "NormalFileData": {
-              "Type": "Normal",
-              "Path": "button/button_huang1.png",
-              "Plist": ""
-            },
-            "Scale9Enable": true,
-            "Scale9OriginX": 15,
-            "Scale9OriginY": 11,
-            "Scale9Width": 98,
-            "Scale9Height": 35,
-            "OutlineColor": {
-              "G": 0,
-              "B": 0
-            },
-            "ShadowColor": {
-              "R": 110,
-              "G": 110,
-              "B": 110
-            },
-            "ShadowOffsetX": 2.0,
-            "ShadowOffsetY": -2.0,
-            "TouchEnable": true,
-            "AnchorPoint": {
-              "ScaleX": 0.5,
-              "ScaleY": 0.5
-            },
-            "Position": {
-              "X": 568.0,
-              "Y": 320.0
-            },
-            "Scale": {
-              "ScaleX": 1.0,
-              "ScaleY": 1.0
-            },
-            "CColor": {},
-            "IconVisible": false,
-            "PositionPercentXEnabled": true,
-            "PositionPercentYEnabled": true,
-            "PrePosition": {
-              "X": 0.5,
-              "Y": 0.5
-            },
-            "PreSize": {
-              "X": 0.1127,
-              "Y": 0.0891
-            },
-            "LeftMargin": 504.0,
-            "RightMargin": 504.0,
-            "TopMargin": 291.5,
-            "BottomMargin": 291.5,
-            "Tag": 19,
-            "ActionTag": -376210686,
-            "Size": {
-              "X": 128.0,
-              "Y": 57.0
-            },
-            "Name": "Button_3",
-            "ctype": "ButtonObjectData"
           }
         ],
         "Size": {
@@ -289,11 +293,9 @@
         "ctype": "LayerObjectData"
       },
       "UsedResources": [
-        "button/button_huang1.png",
-        "button/button_hui1.png",
-        "button/ditu_fanhui.png",
-        "img/touming.png",
-        "img/zhandouditu_lj_1.png"
+        "button/btn_guanbi.png",
+        "img/bg_denglu.png",
+        "img/touming.png"
       ],
       "ctype": "GameFileData"
     }

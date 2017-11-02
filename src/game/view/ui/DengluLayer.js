@@ -18,7 +18,7 @@ var DengluLayer = X.bUi.extend({
 
     onInit : function(){
         var me = this;
-        me.ui.finds("Button_1").touch(function(sender,type){
+        me.ui.finds("btn_kaishi").touch(function(sender,type){
             if(type==ccui.Widget.TOUCH_ENDED){
                 C.log('开始游戏...');
                 me.remove();

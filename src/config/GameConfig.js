@@ -1,10 +1,4 @@
 var GC = {
-	//语言包
-	LNG_ARRAY : [
-    	"lng.json",
-    	"lng_complex.json",
-    	"lng_english.json"
-    ],
 	//颜色
     COLOR : {
         0 : "#6a3906",
@@ -25,16 +19,9 @@ var GC = {
 
 //引擎初始化完毕，搜索路径之类的初始化over
 G.event.on('cocosReady',function(){
-    X.getFileJSON('json/skill.json',function(d){
+    X.getFileJSON('json/fruits.json',function(d){
         GC.SKILL = d;
     });
 
-    X.getFileJSON('json/figure.json',function(d){
-        GC.FIGURE = d;
-    });
-
-    X.getFileJSON('json/item.json',function(d){
-        GC.ITEM = d;
-    });
 
 });

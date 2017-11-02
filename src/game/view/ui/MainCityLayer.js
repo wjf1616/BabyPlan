@@ -17,7 +17,7 @@ var MainCityLayer = X.bUi.extend({
     onInit : function(){
         var me = this;
 
-        me.ui.finds("Button_1").touch(function(sender,type){
+        me.ui.finds("btn_level").touch(function(sender,type){
             if(type==ccui.Widget.TOUCH_ENDED){
                 C.log('离开游戏主城...');
                 me.remove();
@@ -25,7 +25,7 @@ var MainCityLayer = X.bUi.extend({
             }
         });
 
-        me.ui.finds("Button_2").touch(function(sender,type){
+        me.ui.finds("btn_seting").touch(function(sender,type){
             if(type==ccui.Widget.TOUCH_ENDED){
                 C.log('打开游戏设置...');
                 if (me.onSetup) me.onSetup();
@@ -33,7 +33,7 @@ var MainCityLayer = X.bUi.extend({
             }
         });
 
-        me.ui.finds("Button_3").touch(function(sender,type){
+        me.ui.finds("btn_kill").touch(function(sender,type){
             if(type==ccui.Widget.TOUCH_ENDED){
                 if (me.onKill) me.onKill();
 

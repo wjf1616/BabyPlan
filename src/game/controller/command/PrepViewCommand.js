@@ -19,8 +19,6 @@ var PrepViewCommand = cc.GamePureMVC.define(
             this.facade.registerMediator( new DirectorMediator() );
             this.facade.registerMediator( new SceneMediator() );
             this.facade.registerMediator( new DengluMediator() );
-            this.facade.registerMediator( new CreateMediator() );
-            this.facade.registerMediator( new WorldMediator() );
             this.facade.registerMediator( new MainCityMediator() );
             this.facade.registerMediator( new SetupMediator() );
             //this.facade.registerMediator( new LoadingMediator() );

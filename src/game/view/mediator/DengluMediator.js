@@ -42,9 +42,8 @@ var DengluMediator = cc.GamePureMVC.define(
             
             dengluLayer.onLeave = function() {
                 C.log("DengluLayer....");
-                me.sendNotification(cc.GamePureMVC.statemachine.StateMachine.ACTION, null, SceneAction.$('WORLD_ACTION'));
-                //me.sendNotification(cc.GamePureMVC.statemachine.StateMachine.ACTION, null, SceneAction.$('CREATE_ACTION'));
-
+                me.sendNotification(cc.GamePureMVC.statemachine.StateMachine.ACTION, null, SceneAction.$('MAINCITY_ACTION'));
+               
                 //置空view
                 me.destroy();
             };
