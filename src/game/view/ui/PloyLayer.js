@@ -1,9 +1,9 @@
 /**
  * Created by jfwang on 2017-11-02.
- * 登陆-Layer
+ * 游戏中心-Layer
  */
 
-var DengluLayer = X.bUi.extend({
+var PloyLayer = X.bUi.extend({
     ctor: function (json,id) {
         var me = this;
         me._super(json,id);
@@ -18,9 +18,9 @@ var DengluLayer = X.bUi.extend({
 
     onInit : function(){
         var me = this;
-        me.ui.finds("btn_kaishi").touch(function(sender,type){
+        me.ui.finds("btn_level").touch(function(sender,type){
             if(type==ccui.Widget.TOUCH_ENDED){
-                C.log('开始游戏...');
+                C.log('离开游戏中心...');
                 if (me.onLeave) me.onLeave();
                 //me.remove();
             }
@@ -44,9 +44,9 @@ var DengluLayer = X.bUi.extend({
 });
 
 //实例化接口
-DengluLayer.create = function(){
-    var ID = "DengluLayer";
-    var layer = new DengluLayer('DengluLayer.json',ID);
+PloyLayer.create = function(){
+    var ID = "PloyLayer";
+    var layer = new PloyLayer('PloyLayer.json',ID);
     
     //ui加入到frame管理器
     X.addFrame(ID,layer);

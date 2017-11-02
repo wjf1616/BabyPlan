@@ -1,12 +1,12 @@
 /**
  * Created by jfwang on 2017-11-02.
- * 等待-Mediator
+ * 游戏中心-Mediator
  */
 
-var LoadingMediator = cc.GamePureMVC.define(
+var PloyMediator = cc.GamePureMVC.define(
     // CLASS INFO
     {
-        name: 'view.mediator.LoadingMediator',
+        name: 'view.mediator.DengluMediator',
         parent: cc.GamePureMVC.Mediator,
         constructor: function() {
             cc.GamePureMVC.Mediator.call(this, this.constructor.NAME);
@@ -35,21 +35,19 @@ var LoadingMediator = cc.GamePureMVC.define(
         },
         init: function() {
             var me = this;
-            //创建layer
-            var loadingLayer = LoadingLayer.create();
-            me.viewComponent = loadingLayer.ui;
-
-            loadingLayer.onLeave = function() {
-                C.log("LoadingLayer....");
-                
+            
+            //创建登陆layer
+            var ployLayer = PloyLayer.create();
+            me.viewComponent = ployLayer.ui;
+            
+            ployLayer.onLeave = function() {
+                C.log("PloyLayer....");
+                me.sendNotification(cc.GamePureMVC.statemachine.StateMachine.ACTION, null, SceneAction.$('MAINCITY_ACTION'));
+               
                 //置空view
                 me.destroy();
             };
 
-            var curScene = cc.director.getRunningScene();
-            if (me.viewComponent) {
-                curScene.addChild(me.viewComponent);
-            }
         },
         destroy: function() {
             this.viewComponent = null;
@@ -60,6 +58,6 @@ var LoadingMediator = cc.GamePureMVC.define(
     },
     // STATIC MEMBERS
     {
-        NAME: 'LoadingMediator'
+        NAME: 'PloyMediator'
     }
 );

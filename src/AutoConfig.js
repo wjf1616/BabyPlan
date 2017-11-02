@@ -35,10 +35,12 @@ var jsFiles = [
     "src/game/view/mediator/DirectorMediator.js", 
     "src/game/view/mediator/LoadingMediator.js", 
     "src/game/view/mediator/MainCityMediator.js", 
+    "src/game/view/mediator/PloyMediator.js", 
     "src/game/view/mediator/SceneMediator.js", 
     "src/game/view/mediator/SetupMediator.js", 
     "src/game/view/ui/DengluLayer.js", 
     "src/game/view/ui/LoadingLayer.js", 
     "src/game/view/ui/MainCityLayer.js", 
+    "src/game/view/ui/PloyLayer.js", 
     "src/game/view/ui/SetupLayer.js"
 ];

@@ -1,5 +1,5 @@
 /**
- * Created by jfwang on 2017-07-27.
+ * Created by jfwang on 2017-11-02.
  * 主城-Mediator
  */
 
@@ -57,8 +57,13 @@ var MainCityMediator = cc.GamePureMVC.define(
             };
 
             mainCityLayer.onSetup = function() {
-                C.log("MainCityLayer....");
-                me.sendNotification("SETUP_MEDIATOR");
+                C.log("PloyLayer....");
+                me.sendNotification(cc.GamePureMVC.statemachine.StateMachine.ACTION, null, SceneAction.$('PLOY_ACTION'));
+                
+                //置空view
+                me.destroy();
+
+                //me.sendNotification("SETUP_MEDIATOR");
             };
 
             me._mainCityProxy.initLife(10);

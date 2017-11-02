@@ -76,19 +76,11 @@
 	function freshShowedFrame(t){
 		var showedFrame=[];
 		for(var k in G.openingFrame){
-			if(G.frame[k].isShow){
+			if(G.frame[k] && G.frame[k].isShow){
 				showedFrame.push(k);
 			}
 		}
 		G.event.emit('frameChange', showedFrame);
-		//var scene = X.window.scene();
-		//if(scene.__changeTimer){
-		//	scene.clearTimeout(scene.__changeTimer);
-		//	delete scene.__changeTimer;
-		//}
-		//scene.__changeTimer = scene.setTimeout(function() {
-		//	G.event.emit('frameChange', showedFrame);
-		//},5);
 		return showedFrame;
 	}
 

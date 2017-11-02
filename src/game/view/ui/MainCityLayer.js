@@ -1,5 +1,5 @@
 /**
- * Created by jfwang on 2017-07-27.
+ * Created by jfwang on 2017-11-02.
  * 主城-Layer
  */
 
@@ -20,16 +20,14 @@ var MainCityLayer = X.bUi.extend({
         me.ui.finds("btn_level").touch(function(sender,type){
             if(type==ccui.Widget.TOUCH_ENDED){
                 C.log('离开游戏主城...');
-                me.remove();
-
+                if (me.onLeave) me.onLeave();
+                //me.remove();
             }
         });
 
         me.ui.finds("btn_seting").touch(function(sender,type){
             if(type==ccui.Widget.TOUCH_ENDED){
-                C.log('打开游戏设置...');
                 if (me.onSetup) me.onSetup();
-
             }
         });
 
@@ -44,7 +42,6 @@ var MainCityLayer = X.bUi.extend({
     onShow: function () {
         var me = this;
 
-
     },
 
     onHide: function () {
@@ -58,7 +55,7 @@ var MainCityLayer = X.bUi.extend({
     },
 
     onClose: function () {
-        if (this.onLeave) this.onLeave();
+        
     }
 });
 

@@ -28,6 +28,21 @@ var SceneFsm = cc.GeneJS.Class({
                         {
                             "@action": SceneAction.$('DENGLU_ACTION'),
                             "@target": SceneState.$('DENGLU_MEDIATOR')
+                        },
+                        {
+                            "@action": SceneAction.$('PLOY_ACTION'),
+                            "@target": SceneState.$('PLOY_MEDIATOR')
+                        }
+                    ]
+                },
+                {
+                    // 游戏中心
+                    "@name": SceneState.$('PLOY_MEDIATOR'),
+                    //"@changed": SceneTransition ,
+                    "transition": [
+                        {
+                            "@action": SceneAction.$('MAINCITY_ACTION'),
+                            "@target": SceneState.$('MAINCITY_MEDIATOR')
                         }
                     ]
                 }

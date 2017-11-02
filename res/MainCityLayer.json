@@ -17,13 +17,13 @@
           {
             "FileData": {
               "Type": "Normal",
-              "Path": "img/bg_denglu.png",
+              "Path": "img/bg_maincity.png",
               "Plist": ""
             },
             "Scale9OriginX": 171,
             "Scale9OriginY": 96,
-            "Scale9Width": 178,
-            "Scale9Height": 101,
+            "Scale9Width": 102,
+            "Scale9Height": 58,
             "AnchorPoint": {
               "ScaleX": 0.5,
               "ScaleY": 0.5
@@ -95,8 +95,8 @@
                   "ScaleY": 0.5
                 },
                 "Position": {
-                  "X": 1067.983,
-                  "Y": 582.8591
+                  "X": 187.403,
+                  "Y": 593.2567
                 },
                 "Scale": {
                   "ScaleX": 1.0,
@@ -105,23 +105,24 @@
                 "CColor": {},
                 "IconVisible": false,
                 "PrePosition": {
-                  "X": 0.9401,
-                  "Y": 0.9107
+                  "X": 0.165,
+                  "Y": 0.927
                 },
                 "PreSize": {
                   "X": 0.088,
                   "Y": 0.1562
                 },
-                "LeftMargin": 1017.983,
-                "RightMargin": 18.017,
-                "TopMargin": 7.1409,
-                "BottomMargin": 532.8591,
+                "LeftMargin": 137.403,
+                "RightMargin": 898.597,
+                "TopMargin": -3.2567,
+                "BottomMargin": 543.2567,
                 "Tag": 8,
                 "ActionTag": -1393377843,
                 "Size": {
                   "X": 100.0,
                   "Y": 100.0
                 },
+                "Alpha": 0,
                 "Name": "btn_level",
                 "ctype": "ButtonObjectData"
               },
@@ -170,8 +171,8 @@
                   "ScaleY": 0.5
                 },
                 "Position": {
-                  "X": 963.5756,
-                  "Y": 61.4982
+                  "X": 837.0333,
+                  "Y": 37.2301
                 },
                 "Scale": {
                   "ScaleX": 1.0,
@@ -180,23 +181,24 @@
                 "CColor": {},
                 "IconVisible": false,
                 "PrePosition": {
-                  "X": 0.8482,
-                  "Y": 0.0961
+                  "X": 0.7368,
+                  "Y": 0.0582
                 },
                 "PreSize": {
                   "X": 0.088,
                   "Y": 0.1562
                 },
-                "LeftMargin": 913.5756,
-                "RightMargin": 122.4244,
-                "TopMargin": 528.5018,
-                "BottomMargin": 11.4982,
+                "LeftMargin": 787.0333,
+                "RightMargin": 248.9667,
+                "TopMargin": 552.7699,
+                "BottomMargin": -12.7699,
                 "Tag": 9,
                 "ActionTag": -386126718,
                 "Size": {
                   "X": 100.0,
                   "Y": 100.0
                 },
+                "Alpha": 0,
                 "Name": "btn_seting",
                 "ctype": "ButtonObjectData"
               },
@@ -245,8 +247,8 @@
                   "ScaleY": 0.5
                 },
                 "Position": {
-                  "X": 1057.1816,
-                  "Y": 63.6325
+                  "X": 932.3732,
+                  "Y": 37.6311
                 },
                 "Scale": {
                   "ScaleX": 1.0,
@@ -255,23 +257,24 @@
                 "CColor": {},
                 "IconVisible": false,
                 "PrePosition": {
-                  "X": 0.9306,
-                  "Y": 0.0994
+                  "X": 0.8208,
+                  "Y": 0.0588
                 },
                 "PreSize": {
                   "X": 0.088,
                   "Y": 0.1562
                 },
-                "LeftMargin": 1007.1816,
-                "RightMargin": 28.8184,
-                "TopMargin": 526.3676,
-                "BottomMargin": 13.6325,
+                "LeftMargin": 882.3732,
+                "RightMargin": 153.6268,
+                "TopMargin": 552.369,
+                "BottomMargin": -12.3689,
                 "Tag": 10,
                 "ActionTag": 435553335,
                 "Size": {
                   "X": 100.0,
                   "Y": 100.0
                 },
+                "Alpha": 0,
                 "Name": "btn_kill",
                 "ctype": "ButtonObjectData"
               }
@@ -294,7 +297,7 @@
       },
       "UsedResources": [
         "button/btn_guanbi.png",
-        "img/bg_denglu.png",
+        "img/bg_maincity.png",
         "img/touming.png"
       ],
       "ctype": "GameFileData"

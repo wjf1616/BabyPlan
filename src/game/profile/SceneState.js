@@ -6,5 +6,6 @@
 // State 状态
 var SceneState = cc.GeneJS.Class({
     'public const DENGLU_MEDIATOR': 'DengluMediator',
-    'public const MAINCITY_MEDIATOR': 'MainCityMediator'
+    'public const MAINCITY_MEDIATOR': 'MainCityMediator',
+    'public const PLOY_MEDIATOR': 'PloyMediator'
 });

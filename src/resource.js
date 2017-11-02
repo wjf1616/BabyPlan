@@ -23,9 +23,12 @@ var g_resources = [
     "icon/item_tomatoes.png", 
     "icon/item_watermelon.png", 
     "img/bg_denglu.png", 
+    "img/bg_maincity.png", 
+    "img/bg_ploy.png", 
     "img/touming.png", 
     "DengluLayer.json", 
     "MainCityLayer.json", 
+    "PloyLayer.json", 
     "json/fruits.json", 
     "armature/loading.ExportJson"
 ];

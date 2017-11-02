@@ -1,5 +1,5 @@
 /**
- * Created by jfwang on 2017-07-27.
+ * Created by jfwang on 2017-11-02.
  * 基础功能使用封装
  */
 (function(global){

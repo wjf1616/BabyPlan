@@ -5,7 +5,6 @@
 
 var SceneAction = cc.GeneJS.Class({
     'public const DENGLU_ACTION': 'DengluAction',
-    'public const CREATE_ACTION': 'CreateAction',
-    'public const WORLD_ACTION': 'WorldAction',
-    'public const MAINCITY_ACTION': 'MainCityAction'
+    'public const MAINCITY_ACTION': 'MainCityAction',
+    'public const PLOY_ACTION': 'PloyAction'
 });

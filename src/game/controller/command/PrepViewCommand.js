@@ -20,9 +20,10 @@ var PrepViewCommand = cc.GamePureMVC.define(
             this.facade.registerMediator( new SceneMediator() );
             this.facade.registerMediator( new DengluMediator() );
             this.facade.registerMediator( new MainCityMediator() );
-            this.facade.registerMediator( new SetupMediator() );
-            //this.facade.registerMediator( new LoadingMediator() );
+            this.facade.registerMediator( new PloyMediator() );
 
+            //this.facade.registerMediator( new SetupMediator() );
+            //this.facade.registerMediator( new LoadingMediator() );
         }
     },
     // STATIC MEMBERS
