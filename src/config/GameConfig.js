@@ -19,9 +19,10 @@ var GC = {
 
 //引擎初始化完毕，搜索路径之类的初始化over
 G.event.on('cocosReady',function(){
-    X.getFileJSON('json/fruits.json',function(d){
-        GC.SKILL = d;
-    });
+    
+    // X.getFileJSON('json/fruits.json',function(d){
+    //     GC.SKILL = d;
+    // });
 
 
 });

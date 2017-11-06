@@ -38,12 +38,15 @@
             },
             "CColor": {},
             "IconVisible": false,
-            "PositionPercentXEnabled": true,
             "PositionPercentYEnabled": true,
             "PrePosition": {
               "X": 0.5,
               "Y": 0.5
             },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
             "PreSize": {
               "X": 1.0,
               "Y": 1.0
@@ -134,6 +137,1298 @@
             },
             "Name": "bgcontent",
             "ctype": "ImageViewObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 336.03,
+              "Y": 640.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2958,
+              "Y": 1.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 0.7042,
+              "Y": 0.4688
+            },
+            "HorizontalEdge": "RightEdge",
+            "LeftMargin": 336.03,
+            "RightMargin": -0.0012,
+            "TopMargin": -300.032,
+            "BottomMargin": 640.0,
+            "Tag": 6,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "img/ploy_item_bg.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 94,
+                "Scale9OriginY": 29,
+                "Scale9Width": 98,
+                "Scale9Height": 32,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 399.9856,
+                  "Y": 150.016
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 7,
+                "ActionTag": -210625339,
+                "Size": {
+                  "X": 799.9712,
+                  "Y": 300.032
+                },
+                "Name": "bg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 11.3557,
+                  "Y": 24.7144
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0142,
+                  "Y": 0.0824
+                },
+                "PreSize": {
+                  "X": 0.32,
+                  "Y": 0.8532
+                },
+                "LeftMargin": 11.3557,
+                "RightMargin": 532.6155,
+                "TopMargin": 19.3176,
+                "BottomMargin": 24.7144,
+                "Tag": 12,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "img/ploy_icon_1.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 29,
+                    "Scale9OriginY": 29,
+                    "Scale9Width": 30,
+                    "Scale9Height": 30,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 129.7477,
+                      "Y": 131.2905
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5068,
+                      "Y": 0.5129
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "LeftMargin": 1.7477,
+                    "RightMargin": -1.7477,
+                    "TopMargin": -3.2905,
+                    "BottomMargin": 3.2905,
+                    "Tag": 11,
+                    "ActionTag": 1892285616,
+                    "Size": {
+                      "X": 256.0,
+                      "Y": 256.0
+                    },
+                    "Name": "kuang",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "img/touming.png",
+                      "Plist": ""
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 128.0,
+                      "Y": 128.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.0039,
+                      "Y": 0.0039
+                    },
+                    "LeftMargin": 127.5,
+                    "RightMargin": 127.5,
+                    "TopMargin": 127.5,
+                    "BottomMargin": 127.5,
+                    "Tag": 8,
+                    "ActionTag": 1672670300,
+                    "Size": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Name": "icon",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -887698083,
+                "Size": {
+                  "X": 256.0,
+                  "Y": 256.0
+                },
+                "Name": "cargo_01",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 270.0792,
+                  "Y": 24.7144
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3376,
+                  "Y": 0.0824
+                },
+                "PreSize": {
+                  "X": 0.32,
+                  "Y": 0.8532
+                },
+                "LeftMargin": 270.0792,
+                "RightMargin": 273.892,
+                "TopMargin": 19.3176,
+                "BottomMargin": 24.7144,
+                "Tag": 13,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "img/ploy_icon_1.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 29,
+                    "Scale9OriginY": 29,
+                    "Scale9Width": 30,
+                    "Scale9Height": 30,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 129.7477,
+                      "Y": 131.2905
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5068,
+                      "Y": 0.5129
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "LeftMargin": 1.7477,
+                    "RightMargin": -1.7477,
+                    "TopMargin": -3.2905,
+                    "BottomMargin": 3.2905,
+                    "Tag": 14,
+                    "ActionTag": -1840977690,
+                    "Size": {
+                      "X": 256.0,
+                      "Y": 256.0
+                    },
+                    "Name": "kuang",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "img/touming.png",
+                      "Plist": ""
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 128.0,
+                      "Y": 128.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.0039,
+                      "Y": 0.0039
+                    },
+                    "LeftMargin": 127.5,
+                    "RightMargin": 127.5,
+                    "TopMargin": 127.5,
+                    "BottomMargin": 127.5,
+                    "Tag": 15,
+                    "ActionTag": 756381421,
+                    "Size": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Name": "icon",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -448816630,
+                "Size": {
+                  "X": 256.0,
+                  "Y": 256.0
+                },
+                "Name": "cargo_02",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 528.8021,
+                  "Y": 24.7139
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.661,
+                  "Y": 0.0824
+                },
+                "PreSize": {
+                  "X": 0.32,
+                  "Y": 0.8532
+                },
+                "LeftMargin": 528.8021,
+                "RightMargin": 15.1691,
+                "TopMargin": 19.3181,
+                "BottomMargin": 24.7139,
+                "Tag": 16,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "img/ploy_icon_1.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 29,
+                    "Scale9OriginY": 29,
+                    "Scale9Width": 30,
+                    "Scale9Height": 30,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 129.7477,
+                      "Y": 131.2905
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5068,
+                      "Y": 0.5129
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "LeftMargin": 1.7477,
+                    "RightMargin": -1.7477,
+                    "TopMargin": -3.2905,
+                    "BottomMargin": 3.2905,
+                    "Tag": 17,
+                    "ActionTag": 806242843,
+                    "Size": {
+                      "X": 256.0,
+                      "Y": 256.0
+                    },
+                    "Name": "kuang",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "img/touming.png",
+                      "Plist": ""
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 128.0,
+                      "Y": 128.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.0039,
+                      "Y": 0.0039
+                    },
+                    "LeftMargin": 127.5,
+                    "RightMargin": 127.5,
+                    "TopMargin": 127.5,
+                    "BottomMargin": 127.5,
+                    "Tag": 18,
+                    "ActionTag": 1746659654,
+                    "Size": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Name": "icon",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -335029910,
+                "Size": {
+                  "X": 256.0,
+                  "Y": 256.0
+                },
+                "Name": "cargo_03",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": 244343563,
+            "Size": {
+              "X": 799.9712,
+              "Y": 300.032
+            },
+            "Name": "cargo",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": -1136.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -1.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 0.9683,
+              "Y": 0.4688
+            },
+            "LeftMargin": -1136.0,
+            "RightMargin": 1172.0112,
+            "TopMargin": 340.0,
+            "Tag": 19,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "img/ploy_item_bg.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 94,
+                "Scale9OriginY": 29,
+                "Scale9Width": 98,
+                "Scale9Height": 32,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 549.9944,
+                  "Y": 150.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 20,
+                "ActionTag": 1640805815,
+                "Size": {
+                  "X": 1099.9888,
+                  "Y": 300.0
+                },
+                "Name": "bg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 303.2887,
+                  "Y": 18.5354
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2757,
+                  "Y": 0.0618
+                },
+                "PreSize": {
+                  "X": 0.2327,
+                  "Y": 0.8533
+                },
+                "LeftMargin": 303.2887,
+                "RightMargin": 540.7001,
+                "TopMargin": 25.4646,
+                "BottomMargin": 18.5354,
+                "Tag": 21,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "img/ploy_icon_1.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 29,
+                    "Scale9OriginY": 29,
+                    "Scale9Width": 30,
+                    "Scale9Height": 30,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 129.7477,
+                      "Y": 131.2905
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5068,
+                      "Y": 0.5129
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "LeftMargin": 1.7477,
+                    "RightMargin": -1.7477,
+                    "TopMargin": -3.2905,
+                    "BottomMargin": 3.2905,
+                    "Tag": 22,
+                    "ActionTag": 2091093604,
+                    "Size": {
+                      "X": 256.0,
+                      "Y": 256.0
+                    },
+                    "Name": "kuang",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "img/touming.png",
+                      "Plist": ""
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 128.0,
+                      "Y": 128.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.0039,
+                      "Y": 0.0039
+                    },
+                    "LeftMargin": 127.5,
+                    "RightMargin": 127.5,
+                    "TopMargin": 127.5,
+                    "BottomMargin": 127.5,
+                    "Tag": 23,
+                    "ActionTag": 1623131179,
+                    "Size": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Name": "icon",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 48,
+                    "LabelText": "text",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/heiti.ttf",
+                      "Plist": ""
+                    },
+                    "TouchScaleChangeAble": true,
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {},
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "ShadowEnabled": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 128.0,
+                      "Y": 40.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 0,
+                      "B": 29
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.1562
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 0.2227
+                    },
+                    "TopMargin": 187.5,
+                    "BottomMargin": 11.5,
+                    "Tag": 30,
+                    "ActionTag": 1382004628,
+                    "Size": {
+                      "X": 256.0,
+                      "Y": 57.0
+                    },
+                    "Name": "name",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -852570246,
+                "Size": {
+                  "X": 256.0,
+                  "Y": 256.0
+                },
+                "Name": "truck_01",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 562.013,
+                  "Y": 18.5354
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5109,
+                  "Y": 0.0618
+                },
+                "PreSize": {
+                  "X": 0.2327,
+                  "Y": 0.8533
+                },
+                "LeftMargin": 562.013,
+                "RightMargin": 281.9758,
+                "TopMargin": 25.4646,
+                "BottomMargin": 18.5354,
+                "Tag": 24,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "img/ploy_icon_1.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 29,
+                    "Scale9OriginY": 29,
+                    "Scale9Width": 30,
+                    "Scale9Height": 30,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 129.7477,
+                      "Y": 131.2905
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5068,
+                      "Y": 0.5129
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "LeftMargin": 1.7477,
+                    "RightMargin": -1.7477,
+                    "TopMargin": -3.2905,
+                    "BottomMargin": 3.2905,
+                    "Tag": 25,
+                    "ActionTag": 863733866,
+                    "Size": {
+                      "X": 256.0,
+                      "Y": 256.0
+                    },
+                    "Name": "kuang",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "img/touming.png",
+                      "Plist": ""
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 128.0,
+                      "Y": 128.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.0039,
+                      "Y": 0.0039
+                    },
+                    "LeftMargin": 127.5,
+                    "RightMargin": 127.5,
+                    "TopMargin": 127.5,
+                    "BottomMargin": 127.5,
+                    "Tag": 26,
+                    "ActionTag": 1103996817,
+                    "Size": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Name": "icon",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 48,
+                    "LabelText": "text",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/heiti.ttf",
+                      "Plist": ""
+                    },
+                    "TouchScaleChangeAble": true,
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {},
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "ShadowEnabled": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 128.0,
+                      "Y": 40.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 0,
+                      "B": 29
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.1562
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 0.2227
+                    },
+                    "TopMargin": 187.5,
+                    "BottomMargin": 11.5,
+                    "Tag": 31,
+                    "ActionTag": -1423638266,
+                    "Size": {
+                      "X": 256.0,
+                      "Y": 57.0
+                    },
+                    "Name": "name",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -200992695,
+                "Size": {
+                  "X": 256.0,
+                  "Y": 256.0
+                },
+                "Name": "truck_02",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 820.7382,
+                  "Y": 18.5349
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7461,
+                  "Y": 0.0618
+                },
+                "PreSize": {
+                  "X": 0.2327,
+                  "Y": 0.8533
+                },
+                "LeftMargin": 820.7382,
+                "RightMargin": 23.2505,
+                "TopMargin": 25.4651,
+                "BottomMargin": 18.5349,
+                "Tag": 27,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "img/ploy_icon_1.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 29,
+                    "Scale9OriginY": 29,
+                    "Scale9Width": 30,
+                    "Scale9Height": 30,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 129.7477,
+                      "Y": 131.2905
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5068,
+                      "Y": 0.5129
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "LeftMargin": 1.7477,
+                    "RightMargin": -1.7477,
+                    "TopMargin": -3.2905,
+                    "BottomMargin": 3.2905,
+                    "Tag": 28,
+                    "ActionTag": 1482985384,
+                    "Size": {
+                      "X": 256.0,
+                      "Y": 256.0
+                    },
+                    "Name": "kuang",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "img/touming.png",
+                      "Plist": ""
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 128.0,
+                      "Y": 128.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.0039,
+                      "Y": 0.0039
+                    },
+                    "LeftMargin": 127.5,
+                    "RightMargin": 127.5,
+                    "TopMargin": 127.5,
+                    "BottomMargin": 127.5,
+                    "Tag": 29,
+                    "ActionTag": -2079209788,
+                    "Size": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Name": "icon",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 48,
+                    "LabelText": "text",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/heiti.ttf",
+                      "Plist": ""
+                    },
+                    "TouchScaleChangeAble": true,
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {},
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "ShadowEnabled": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 128.0,
+                      "Y": 40.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 0,
+                      "B": 29
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.1562
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 0.2227
+                    },
+                    "TopMargin": 187.5,
+                    "BottomMargin": 11.5,
+                    "Tag": 32,
+                    "ActionTag": -2018237868,
+                    "Size": {
+                      "X": 256.0,
+                      "Y": 57.0
+                    },
+                    "Name": "name",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -1711895277,
+                "Size": {
+                  "X": 256.0,
+                  "Y": 256.0
+                },
+                "Name": "truck_03",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "img/touming.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 150.0,
+                  "Y": 50.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1364,
+                  "Y": 0.1667
+                },
+                "PreSize": {
+                  "X": 0.0009,
+                  "Y": 0.0033
+                },
+                "LeftMargin": 149.5,
+                "RightMargin": 949.4888,
+                "TopMargin": 249.5,
+                "BottomMargin": 49.5,
+                "Tag": 33,
+                "ActionTag": 2053886464,
+                "Size": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Name": "ico",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -1418703325,
+            "Size": {
+              "X": 1099.9888,
+              "Y": 300.0
+            },
+            "Name": "truck",
+            "ctype": "PanelObjectData"
           }
         ],
         "Size": {
@@ -145,7 +1440,10 @@
       },
       "UsedResources": [
         "button/btn_guanbi.png",
+        "fonts/heiti.ttf",
         "img/bg_ploy.png",
+        "img/ploy_icon_1.png",
+        "img/ploy_item_bg.png",
         "img/touming.png"
       ],
       "ctype": "GameFileData"

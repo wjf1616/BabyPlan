@@ -167,9 +167,21 @@
         return s;
     };
 
-    //数组内元素 随机
+    //数组内元素 随机单个
     X.arrayRand = function (arr){
         return arr[X.rand(0,arr.length-1)];
+    };
+
+    //数组内元素 随机多个
+    X.arrayRands = function (arr, count) {
+        var shuffled = arr.slice(0), i = arr.length, min = i - count, temp, index;
+        while (i-- > min) {
+            index = Math.floor((i + 1) * Math.random());
+            temp = shuffled[index];
+            shuffled[index] = shuffled[i];
+            shuffled[i] = temp;
+        }
+        return shuffled.slice(min);
     };
 
     /**

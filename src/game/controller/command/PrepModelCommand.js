@@ -15,8 +15,8 @@ var PrepModelCommand = cc.GamePureMVC.define(
         execute: function (notification)
         {
             cc.log('PrepModelCommand execute');
-            this.facade.registerProxy(new MainCityProxy() );
-            
+            this.facade.registerProxy(new MainCityProxy());
+            this.facade.registerProxy(new PloyProxy());
 
         }
     },

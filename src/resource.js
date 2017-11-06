@@ -25,10 +25,15 @@ var g_resources = [
     "img/bg_denglu.png", 
     "img/bg_maincity.png", 
     "img/bg_ploy.png", 
+    "img/ploy_icon_1.png", 
+    "img/ploy_icon_2.png", 
+    "img/ploy_icon_3.png", 
+    "img/ploy_item_bg.png", 
     "img/touming.png", 
+    "fonts/heiti.ttf", 
+    "armature/loading.ExportJson", 
     "DengluLayer.json", 
     "MainCityLayer.json", 
     "PloyLayer.json", 
-    "json/fruits.json", 
-    "armature/loading.ExportJson"
+    "json/fruits.json"
 ];

@@ -26,6 +26,7 @@ var jsFiles = [
     "src/game/controller/command/PrepViewCommand.js", 
     "src/game/controller/command/StartupCommand.js", 
     "src/game/model/MainCityProxy.js", 
+    "src/game/model/PloyProxy.js", 
     "src/game/profile/SceneAction.js", 
     "src/game/profile/SceneFsm.js", 
     "src/game/profile/SceneState.js", 
