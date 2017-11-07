@@ -8,9 +8,7 @@ var PloyLayer = X.bUi.extend({
         var me = this;
         me._optionCount = 3;
         me._finishCount = 3;
-
         me._curFinishCount = 0;
-        me._selectTruck = null;
         me._dataCurConfig = null;
         me._dataConfig = null;
 
@@ -39,7 +37,7 @@ var PloyLayer = X.bUi.extend({
             var _itemCargo = me.ui.finds("cargo_0"+(i+1));
             _itemCargo.touch(function(sender,type){
                 if(type==ccui.Widget.TOUCH_ENDED){
-                    me.onSelectCargo(this.index);
+                    me.onSelectCargo(this);
                 }
             },_itemCargo);
 
@@ -62,6 +60,13 @@ var PloyLayer = X.bUi.extend({
         if (!d || d.length <= 0) return;
         me._dataConfig = d;
 
+        //添加选中动画
+        X.armature.create("armature/jqfb_jtdh.ExportJson","jqfb_jtdh",function(node){
+            node.setPosition(cc.p(0,0));
+            me.ui.finds("truck_mc").addChild(node);
+        });
+        
+
         //开始游戏
         function _onStart(){
             me._initPloy();
@@ -77,6 +82,7 @@ var PloyLayer = X.bUi.extend({
 
     _initPloy: function(){
         var me = this;
+        me.onClear();
         me.onInitFinish();
 
         var data = me._dataCurConfig = X.arrayRands(me._dataConfig,3);
@@ -93,7 +99,7 @@ var PloyLayer = X.bUi.extend({
             var _truck = me.ui.finds("truck_0"+(i+1));
             _truck.index = index;
             _truck.isFinish = 0;
-            
+
             _truckIcon = _truck.finds("icon");
             _truckIcon.ignoreContentAdaptWithSize(true);
             _truckIcon.loadTexture("img/touming.png");
@@ -101,14 +107,50 @@ var PloyLayer = X.bUi.extend({
         }
     },    
 
-    //选着cargo
-    onSelectCargo: function(d){
-        var me = this;
-        if (me._selectTruck.index != d) return;
+    onClear: function(){
+        this.ui.finds("truck_mc").hide();
+        if (this._selectTruck) {
+            this._selectTruck.finds("select").hide();
+        }
+        this._selectTruck = null;
+    },
 
-        me._selectTruck.finds("icon").loadTexture("icon/"+me._dataCurConfig[d].icon);
+    //选着cargo
+    onSelectCargo: function(_selectCargo){
+        var me = this;
+        if (!me._selectTruck || !_selectCargo || me._selectTruck.index != _selectCargo.index) return;
+        _selectCargo.finds("icon").loadTexture("img/touming.png");
+        me._selectTruck.finds("icon").loadTexture("icon/"+me._dataCurConfig[_selectCargo.index].icon);
         me._selectTruck.isFinish = 1;
 
+        me.onShowTruck();
+    },
+
+    //刷新获取状态
+    onSelectTruck: function(d){
+        var me = this;
+        if (me._selectTruck == d) return;
+        
+        me._selectTruck = d;
+        for (var i = 0; i < me._optionCount; i++) {
+            var _itemTruck = me.ui.finds("truck_0"+(i+1));
+            if (d != _itemTruck) {
+                _itemTruck.finds("select").hide();
+            }
+            else
+            {
+                _itemTruck.finds("select").show();
+                
+                var pos = _itemTruck.getPosition();
+                me.ui.finds("truck_mc").show();
+                me.ui.finds("truck_mc").setPosition(cc.p(pos.x+128,pos.y+128));
+            }
+        }
+    },
+
+    onShowTruck:function(){
+        var me = this;
+        
         //选取未完成
         if (!me.IsFinish()) return;
         function _onFinish(){
@@ -131,16 +173,6 @@ var PloyLayer = X.bUi.extend({
         me.ui.setTimeout(function(){
             _onFinish();
         },1000);
-
-        
-    },
-
-    //刷新获取状态
-    onSelectTruck: function(d){
-        var me = this;
-        if (me._selectTruck != d) {
-            me._selectTruck = d;
-        }
     },
 
     //初始化动画回调
@@ -192,7 +224,9 @@ var PloyLayer = X.bUi.extend({
     },
 
     onClose: function () {
-        
+        this._curFinishCount = 0;
+        this._dataCurConfig = null;
+        this._dataConfig = null;
     }
 });
 

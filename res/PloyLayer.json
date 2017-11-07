@@ -225,6 +225,7 @@
                   "X": 1.0,
                   "Y": 1.0
                 },
+                "RightMargin": 0.0001,
                 "Tag": 7,
                 "ActionTag": -210625339,
                 "Size": {
@@ -256,7 +257,7 @@
                 "AnchorPoint": {},
                 "Position": {
                   "X": 11.3557,
-                  "Y": 24.7144
+                  "Y": 24.71
                 },
                 "Scale": {
                   "ScaleX": 1.0,
@@ -274,8 +275,8 @@
                 },
                 "LeftMargin": 11.3557,
                 "RightMargin": 532.6155,
-                "TopMargin": 19.3176,
-                "BottomMargin": 24.7144,
+                "TopMargin": 19.322,
+                "BottomMargin": 24.71,
                 "Tag": 12,
                 "Children": [
                   {
@@ -669,7 +670,7 @@
             ],
             "ActionTag": 244343563,
             "Size": {
-              "X": 799.9712,
+              "X": 799.9713,
               "Y": 300.032
             },
             "Name": "cargo",
@@ -719,7 +720,7 @@
             },
             "LeftMargin": -1136.0,
             "RightMargin": 1172.0112,
-            "TopMargin": 340.0,
+            "TopMargin": 339.968,
             "Tag": 19,
             "Children": [
               {
@@ -750,7 +751,7 @@
                 "PositionPercentYEnabled": true,
                 "PrePosition": {
                   "X": 0.5,
-                  "Y": 0.5
+                  "Y": 0.4999
                 },
                 "PercentWidthEnable": true,
                 "PercentHeightEnable": true,
@@ -758,8 +759,9 @@
                 "PercentHeightEnabled": true,
                 "PreSize": {
                   "X": 1.0,
-                  "Y": 1.0
+                  "Y": 0.9999
                 },
+                "TopMargin": 0.032,
                 "Tag": 20,
                 "ActionTag": 1640805815,
                 "Size": {
@@ -805,11 +807,11 @@
                 },
                 "PreSize": {
                   "X": 0.2327,
-                  "Y": 0.8533
+                  "Y": 0.8532
                 },
                 "LeftMargin": 303.2887,
                 "RightMargin": 540.7001,
-                "TopMargin": 25.4646,
+                "TopMargin": 25.4966,
                 "BottomMargin": 18.5354,
                 "Tag": 21,
                 "Children": [
@@ -962,6 +964,53 @@
                     },
                     "Name": "name",
                     "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "img/ploy_icon_2.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 29,
+                    "Scale9OriginY": 29,
+                    "Scale9Width": 30,
+                    "Scale9Height": 30,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 129.7477,
+                      "Y": 131.2905
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5068,
+                      "Y": 0.5129
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "LeftMargin": 1.7477,
+                    "RightMargin": -1.7477,
+                    "TopMargin": -3.2905,
+                    "BottomMargin": 3.2905,
+                    "Tag": 30,
+                    "ActionTag": 1793503628,
+                    "Size": {
+                      "X": 256.0,
+                      "Y": 256.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "select",
+                    "ctype": "ImageViewObjectData"
                   }
                 ],
                 "ActionTag": -852570246,
@@ -1008,11 +1057,11 @@
                 },
                 "PreSize": {
                   "X": 0.2327,
-                  "Y": 0.8533
+                  "Y": 0.8532
                 },
                 "LeftMargin": 562.013,
                 "RightMargin": 281.9758,
-                "TopMargin": 25.4646,
+                "TopMargin": 25.4966,
                 "BottomMargin": 18.5354,
                 "Tag": 24,
                 "Children": [
@@ -1165,6 +1214,53 @@
                     },
                     "Name": "name",
                     "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "img/ploy_icon_2.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 29,
+                    "Scale9OriginY": 29,
+                    "Scale9Width": 30,
+                    "Scale9Height": 30,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 129.7477,
+                      "Y": 131.2905
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5068,
+                      "Y": 0.5129
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "LeftMargin": 1.7477,
+                    "RightMargin": -1.7477,
+                    "TopMargin": -3.2905,
+                    "BottomMargin": 3.2905,
+                    "Tag": 31,
+                    "ActionTag": 771465770,
+                    "Size": {
+                      "X": 256.0,
+                      "Y": 256.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "select",
+                    "ctype": "ImageViewObjectData"
                   }
                 ],
                 "ActionTag": -200992695,
@@ -1211,11 +1307,11 @@
                 },
                 "PreSize": {
                   "X": 0.2327,
-                  "Y": 0.8533
+                  "Y": 0.8532
                 },
                 "LeftMargin": 820.7382,
                 "RightMargin": 23.2505,
-                "TopMargin": 25.4651,
+                "TopMargin": 25.4971,
                 "BottomMargin": 18.5349,
                 "Tag": 27,
                 "Children": [
@@ -1368,6 +1464,53 @@
                     },
                     "Name": "name",
                     "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "img/ploy_icon_2.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 29,
+                    "Scale9OriginY": 29,
+                    "Scale9Width": 30,
+                    "Scale9Height": 30,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 129.7477,
+                      "Y": 131.2905
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5068,
+                      "Y": 0.5129
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "LeftMargin": 1.7477,
+                    "RightMargin": -1.7477,
+                    "TopMargin": -3.2905,
+                    "BottomMargin": 3.2905,
+                    "Tag": 32,
+                    "ActionTag": 685744580,
+                    "Size": {
+                      "X": 256.0,
+                      "Y": 256.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "select",
+                    "ctype": "ImageViewObjectData"
                   }
                 ],
                 "ActionTag": -1711895277,
@@ -1377,6 +1520,47 @@
                 },
                 "Name": "truck_03",
                 "ctype": "PanelObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "img/touming.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 303.2887,
+                  "Y": 18.5355
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2757,
+                  "Y": 0.0618
+                },
+                "PreSize": {
+                  "X": 0.0009,
+                  "Y": 0.0033
+                },
+                "LeftMargin": 303.2887,
+                "RightMargin": 795.7001,
+                "TopMargin": 280.4966,
+                "BottomMargin": 18.5355,
+                "Tag": 35,
+                "ActionTag": 459593068,
+                "Size": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "VisibleForFrame": false,
+                "Name": "truck_mc",
+                "ctype": "ImageViewObjectData"
               },
               {
                 "FileData": {
@@ -1402,7 +1586,7 @@
                 "IconVisible": false,
                 "PrePosition": {
                   "X": 0.1364,
-                  "Y": 0.1667
+                  "Y": 0.1666
                 },
                 "PreSize": {
                   "X": 0.0009,
@@ -1410,7 +1594,7 @@
                 },
                 "LeftMargin": 149.5,
                 "RightMargin": 949.4888,
-                "TopMargin": 249.5,
+                "TopMargin": 249.532,
                 "BottomMargin": 49.5,
                 "Tag": 33,
                 "ActionTag": 2053886464,
@@ -1425,7 +1609,7 @@
             "ActionTag": -1418703325,
             "Size": {
               "X": 1099.9888,
-              "Y": 300.0
+              "Y": 300.032
             },
             "Name": "truck",
             "ctype": "PanelObjectData"
@@ -1443,6 +1627,7 @@
         "fonts/heiti.ttf",
         "img/bg_ploy.png",
         "img/ploy_icon_1.png",
+        "img/ploy_icon_2.png",
         "img/ploy_item_bg.png",
         "img/touming.png"
       ],

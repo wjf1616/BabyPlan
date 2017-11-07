@@ -1,4 +1,5 @@
 var g_resources = [
+    "armature/jqfb_jtdh0.png", 
     "armature/loading0.png", 
     "button/btn_guanbi.png", 
     "i18n/zh_CN/button/btn_ksyx.png", 
@@ -31,6 +32,7 @@ var g_resources = [
     "img/ploy_item_bg.png", 
     "img/touming.png", 
     "fonts/heiti.ttf", 
+    "armature/jqfb_jtdh.ExportJson", 
     "armature/loading.ExportJson", 
     "DengluLayer.json", 
     "MainCityLayer.json", 

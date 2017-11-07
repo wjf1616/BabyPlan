@@ -22,8 +22,8 @@
             },
             "Scale9OriginX": 171,
             "Scale9OriginY": 96,
-            "Scale9Width": 829,
-            "Scale9Height": 462,
+            "Scale9Width": 1578,
+            "Scale9Height": 888,
             "AnchorPoint": {
               "ScaleX": 0.5,
               "ScaleY": 0.5
@@ -95,8 +95,8 @@
                   "ScaleY": 0.5
                 },
                 "Position": {
-                  "X": 568.7574,
-                  "Y": 345.4465
+                  "X": 299.9972,
+                  "Y": 217.2448
                 },
                 "Scale": {
                   "ScaleX": 1.0,
@@ -105,22 +105,22 @@
                 "CColor": {},
                 "IconVisible": false,
                 "PrePosition": {
-                  "X": 0.5007,
-                  "Y": 0.5398
+                  "X": 0.2641,
+                  "Y": 0.3394
                 },
                 "PreSize": {
-                  "X": 0.2104,
-                  "Y": 0.1516
+                  "X": 0.1761,
+                  "Y": 0.3125
                 },
-                "LeftMargin": 449.2574,
-                "RightMargin": 447.7426,
-                "TopMargin": 246.0535,
-                "BottomMargin": 296.9465,
+                "LeftMargin": 199.9972,
+                "RightMargin": 736.0028,
+                "TopMargin": 322.7552,
+                "BottomMargin": 117.2448,
                 "Tag": 5,
                 "ActionTag": 715587098,
                 "Size": {
-                  "X": 239.0,
-                  "Y": 97.0
+                  "X": 200.0,
+                  "Y": 200.0
                 },
                 "Alpha": 0,
                 "Name": "btn_kaishi",
