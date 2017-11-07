@@ -22,8 +22,8 @@
             },
             "Scale9OriginX": 171,
             "Scale9OriginY": 96,
-            "Scale9Width": 102,
-            "Scale9Height": 58,
+            "Scale9Width": 794,
+            "Scale9Height": 448,
             "AnchorPoint": {
               "ScaleX": 0.5,
               "ScaleY": 0.5
@@ -70,14 +70,14 @@
                 },
                 "NormalFileData": {
                   "Type": "Normal",
-                  "Path": "button/btn_guanbi.png",
+                  "Path": "button/btn_fanhui.png",
                   "Plist": ""
                 },
                 "Scale9Enable": true,
                 "Scale9OriginX": 15,
                 "Scale9OriginY": 11,
-                "Scale9Width": 70,
-                "Scale9Height": 78,
+                "Scale9Width": 98,
+                "Scale9Height": 106,
                 "OutlineColor": {
                   "G": 0,
                   "B": 0
@@ -95,8 +95,8 @@
                   "ScaleY": 0.5
                 },
                 "Position": {
-                  "X": 187.403,
-                  "Y": 593.2567
+                  "X": 74.0,
+                  "Y": 566.0
                 },
                 "Scale": {
                   "ScaleX": 1.0,
@@ -105,24 +105,25 @@
                 "CColor": {},
                 "IconVisible": false,
                 "PrePosition": {
-                  "X": 0.165,
-                  "Y": 0.927
+                  "X": 0.0651,
+                  "Y": 0.8844
                 },
                 "PreSize": {
-                  "X": 0.088,
-                  "Y": 0.1562
+                  "X": 0.1127,
+                  "Y": 0.2
                 },
-                "LeftMargin": 137.403,
-                "RightMargin": 898.597,
-                "TopMargin": -3.2567,
-                "BottomMargin": 543.2567,
+                "HorizontalEdge": "LeftEdge",
+                "VerticalEdge": "TopEdge",
+                "LeftMargin": 10.0,
+                "RightMargin": 998.0,
+                "TopMargin": 10.0,
+                "BottomMargin": 502.0,
                 "Tag": 8,
                 "ActionTag": -1393377843,
                 "Size": {
-                  "X": 100.0,
-                  "Y": 100.0
+                  "X": 128.0,
+                  "Y": 128.0
                 },
-                "Alpha": 0,
                 "Name": "btn_level",
                 "ctype": "ButtonObjectData"
               },
@@ -146,14 +147,14 @@
                 },
                 "NormalFileData": {
                   "Type": "Normal",
-                  "Path": "button/btn_guanbi.png",
+                  "Path": "button/btn_shuiguotan.png",
                   "Plist": ""
                 },
                 "Scale9Enable": true,
                 "Scale9OriginX": 15,
                 "Scale9OriginY": 11,
-                "Scale9Width": 70,
-                "Scale9Height": 78,
+                "Scale9Width": 226,
+                "Scale9Height": 234,
                 "OutlineColor": {
                   "G": 0,
                   "B": 0
@@ -167,12 +168,12 @@
                 "ShadowOffsetY": -2.0,
                 "TouchEnable": true,
                 "AnchorPoint": {
-                  "ScaleX": 0.5,
-                  "ScaleY": 0.5
+                  "ScaleX": 0.4991,
+                  "ScaleY": 0.4403
                 },
                 "Position": {
-                  "X": 837.0333,
-                  "Y": 37.2301
+                  "X": 217.2274,
+                  "Y": 89.9969
                 },
                 "Scale": {
                   "ScaleX": 1.0,
@@ -181,24 +182,23 @@
                 "CColor": {},
                 "IconVisible": false,
                 "PrePosition": {
-                  "X": 0.7368,
-                  "Y": 0.0582
+                  "X": 0.1912,
+                  "Y": 0.1406
                 },
                 "PreSize": {
-                  "X": 0.088,
-                  "Y": 0.1562
+                  "X": 0.1761,
+                  "Y": 0.3125
                 },
-                "LeftMargin": 787.0333,
-                "RightMargin": 248.9667,
-                "TopMargin": 552.7699,
-                "BottomMargin": -12.7699,
+                "LeftMargin": 117.412,
+                "RightMargin": 818.588,
+                "TopMargin": 438.0729,
+                "BottomMargin": 1.927,
                 "Tag": 9,
                 "ActionTag": -386126718,
                 "Size": {
-                  "X": 100.0,
-                  "Y": 100.0
+                  "X": 200.0,
+                  "Y": 200.0
                 },
-                "Alpha": 0,
                 "Name": "btn_seting",
                 "ctype": "ButtonObjectData"
               },
@@ -222,14 +222,14 @@
                 },
                 "NormalFileData": {
                   "Type": "Normal",
-                  "Path": "button/btn_guanbi.png",
+                  "Path": "button/btn_shuiguotan.png",
                   "Plist": ""
                 },
                 "Scale9Enable": true,
                 "Scale9OriginX": 15,
                 "Scale9OriginY": 11,
-                "Scale9Width": 70,
-                "Scale9Height": 78,
+                "Scale9Width": 226,
+                "Scale9Height": 234,
                 "OutlineColor": {
                   "G": 0,
                   "B": 0
@@ -247,8 +247,8 @@
                   "ScaleY": 0.5
                 },
                 "Position": {
-                  "X": 932.3732,
-                  "Y": 37.6311
+                  "X": 410.4453,
+                  "Y": 101.927
                 },
                 "Scale": {
                   "ScaleX": 1.0,
@@ -257,24 +257,23 @@
                 "CColor": {},
                 "IconVisible": false,
                 "PrePosition": {
-                  "X": 0.8208,
-                  "Y": 0.0588
+                  "X": 0.3613,
+                  "Y": 0.1593
                 },
                 "PreSize": {
-                  "X": 0.088,
-                  "Y": 0.1562
+                  "X": 0.1761,
+                  "Y": 0.3125
                 },
-                "LeftMargin": 882.3732,
-                "RightMargin": 153.6268,
-                "TopMargin": 552.369,
-                "BottomMargin": -12.3689,
+                "LeftMargin": 310.4453,
+                "RightMargin": 625.5547,
+                "TopMargin": 438.0729,
+                "BottomMargin": 1.927,
                 "Tag": 10,
                 "ActionTag": 435553335,
                 "Size": {
-                  "X": 100.0,
-                  "Y": 100.0
+                  "X": 200.0,
+                  "Y": 200.0
                 },
-                "Alpha": 0,
                 "Name": "btn_kill",
                 "ctype": "ButtonObjectData"
               }
@@ -296,7 +295,8 @@
         "ctype": "LayerObjectData"
       },
       "UsedResources": [
-        "button/btn_guanbi.png",
+        "button/btn_fanhui.png",
+        "button/btn_shuiguotan.png",
         "img/bg_maincity.png",
         "img/touming.png"
       ],

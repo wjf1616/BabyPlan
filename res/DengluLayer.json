@@ -70,14 +70,14 @@
                 },
                 "NormalFileData": {
                   "Type": "Normal",
-                  "Path": "i18n/zh_CN/button/btn_ksyx.png",
+                  "Path": "button/btn_start.png",
                   "Plist": ""
                 },
                 "Scale9Enable": true,
                 "Scale9OriginX": 15,
                 "Scale9OriginY": 11,
-                "Scale9Width": 209,
-                "Scale9Height": 75,
+                "Scale9Width": 226,
+                "Scale9Height": 234,
                 "OutlineColor": {
                   "G": 0,
                   "B": 0
@@ -95,8 +95,8 @@
                   "ScaleY": 0.5
                 },
                 "Position": {
-                  "X": 299.9972,
-                  "Y": 217.2448
+                  "X": 416.3992,
+                  "Y": 157.1669
                 },
                 "Scale": {
                   "ScaleX": 1.0,
@@ -105,24 +105,23 @@
                 "CColor": {},
                 "IconVisible": false,
                 "PrePosition": {
-                  "X": 0.2641,
-                  "Y": 0.3394
+                  "X": 0.3665,
+                  "Y": 0.2456
                 },
                 "PreSize": {
                   "X": 0.1761,
                   "Y": 0.3125
                 },
-                "LeftMargin": 199.9972,
-                "RightMargin": 736.0028,
-                "TopMargin": 322.7552,
-                "BottomMargin": 117.2448,
+                "LeftMargin": 316.3992,
+                "RightMargin": 619.6008,
+                "TopMargin": 382.8331,
+                "BottomMargin": 57.1669,
                 "Tag": 5,
                 "ActionTag": 715587098,
                 "Size": {
                   "X": 200.0,
                   "Y": 200.0
                 },
-                "Alpha": 0,
                 "Name": "btn_kaishi",
                 "ctype": "ButtonObjectData"
               }
@@ -144,7 +143,7 @@
         "ctype": "LayerObjectData"
       },
       "UsedResources": [
-        "i18n/zh_CN/button/btn_ksyx.png",
+        "button/btn_start.png",
         "img/bg_denglu.png",
         "img/touming.png"
       ],

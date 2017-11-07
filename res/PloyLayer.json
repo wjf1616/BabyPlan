@@ -22,8 +22,8 @@
             },
             "Scale9OriginX": 171,
             "Scale9OriginY": 96,
-            "Scale9Width": 178,
-            "Scale9Height": 101,
+            "Scale9Width": 794,
+            "Scale9Height": 448,
             "AnchorPoint": {
               "ScaleX": 0.5,
               "ScaleY": 0.5
@@ -73,14 +73,14 @@
                 },
                 "NormalFileData": {
                   "Type": "Normal",
-                  "Path": "button/btn_guanbi.png",
+                  "Path": "button/btn_fanhui.png",
                   "Plist": ""
                 },
                 "Scale9Enable": true,
                 "Scale9OriginX": 15,
                 "Scale9OriginY": 11,
-                "Scale9Width": 70,
-                "Scale9Height": 78,
+                "Scale9Width": 98,
+                "Scale9Height": 106,
                 "OutlineColor": {
                   "G": 0,
                   "B": 0
@@ -112,20 +112,19 @@
                   "Y": 0.9134
                 },
                 "PreSize": {
-                  "X": 0.088,
-                  "Y": 0.1562
+                  "X": 0.1127,
+                  "Y": 0.2
                 },
-                "LeftMargin": 19.5295,
-                "RightMargin": 1016.4705,
-                "TopMargin": 5.4119,
-                "BottomMargin": 534.5881,
+                "LeftMargin": 5.5295,
+                "RightMargin": 1002.4705,
+                "TopMargin": -8.5881,
+                "BottomMargin": 520.5881,
                 "Tag": 30,
                 "ActionTag": 332473015,
                 "Size": {
-                  "X": 100.0,
-                  "Y": 100.0
+                  "X": 128.0,
+                  "Y": 128.0
                 },
-                "Alpha": 0,
                 "Name": "btn_level",
                 "ctype": "ButtonObjectData"
               }
@@ -140,7 +139,7 @@
           },
           {
             "ClipAble": false,
-            "BackColorAlpha": 102,
+            "BackColorAlpha": 0,
             "ComboBoxIndex": 1,
             "SingleColor": {
               "R": 150,
@@ -190,20 +189,21 @@
               {
                 "FileData": {
                   "Type": "Normal",
-                  "Path": "img/ploy_item_bg.png",
+                  "Path": "img/ploy_bg_muban.png",
                   "Plist": ""
                 },
+                "Scale9Enable": true,
                 "Scale9OriginX": 94,
                 "Scale9OriginY": 29,
-                "Scale9Width": 98,
-                "Scale9Height": 32,
+                "Scale9Width": 512,
+                "Scale9Height": 342,
                 "AnchorPoint": {
                   "ScaleX": 0.5,
                   "ScaleY": 0.5
                 },
                 "Position": {
                   "X": 399.9856,
-                  "Y": 150.016
+                  "Y": 269.0214
                 },
                 "Scale": {
                   "ScaleX": 1.0,
@@ -215,29 +215,28 @@
                 "PositionPercentYEnabled": true,
                 "PrePosition": {
                   "X": 0.5,
-                  "Y": 0.5
+                  "Y": 0.8966
                 },
-                "PercentWidthEnable": true,
-                "PercentHeightEnable": true,
-                "PercentWidthEnabled": true,
-                "PercentHeightEnabled": true,
                 "PreSize": {
                   "X": 1.0,
-                  "Y": 1.0
+                  "Y": 1.6665
                 },
-                "RightMargin": 0.0001,
+                "LeftMargin": -0.0144,
+                "RightMargin": -0.0144,
+                "TopMargin": -218.9893,
+                "BottomMargin": 19.0214,
                 "Tag": 7,
                 "ActionTag": -210625339,
                 "Size": {
-                  "X": 799.9712,
-                  "Y": 300.032
+                  "X": 800.0,
+                  "Y": 500.0
                 },
                 "Name": "bg",
                 "ctype": "ImageViewObjectData"
               },
               {
                 "ClipAble": false,
-                "BackColorAlpha": 102,
+                "BackColorAlpha": 0,
                 "ComboBoxIndex": 1,
                 "SingleColor": {
                   "R": 150,
@@ -381,7 +380,7 @@
               },
               {
                 "ClipAble": false,
-                "BackColorAlpha": 102,
+                "BackColorAlpha": 0,
                 "ComboBoxIndex": 1,
                 "SingleColor": {
                   "R": 150,
@@ -525,7 +524,7 @@
               },
               {
                 "ClipAble": false,
-                "BackColorAlpha": 102,
+                "BackColorAlpha": 0,
                 "ComboBoxIndex": 1,
                 "SingleColor": {
                   "R": 150,
@@ -670,7 +669,7 @@
             ],
             "ActionTag": 244343563,
             "Size": {
-              "X": 799.9713,
+              "X": 799.9712,
               "Y": 300.032
             },
             "Name": "cargo",
@@ -739,7 +738,7 @@
                 },
                 "Position": {
                   "X": 549.9944,
-                  "Y": 150.0
+                  "Y": 149.986
                 },
                 "Scale": {
                   "ScaleX": 1.0,
@@ -761,12 +760,13 @@
                   "X": 1.0,
                   "Y": 0.9999
                 },
-                "TopMargin": 0.032,
+                "TopMargin": 0.045,
+                "BottomMargin": -0.015,
                 "Tag": 20,
                 "ActionTag": 1640805815,
                 "Size": {
                   "X": 1099.9888,
-                  "Y": 300.0
+                  "Y": 300.002
                 },
                 "Name": "bg",
                 "ctype": "ImageViewObjectData"
@@ -1550,7 +1550,7 @@
                 },
                 "LeftMargin": 303.2887,
                 "RightMargin": 795.7001,
-                "TopMargin": 280.4966,
+                "TopMargin": 280.4965,
                 "BottomMargin": 18.5355,
                 "Tag": 35,
                 "ActionTag": 459593068,
@@ -1623,9 +1623,10 @@
         "ctype": "LayerObjectData"
       },
       "UsedResources": [
-        "button/btn_guanbi.png",
+        "button/btn_fanhui.png",
         "fonts/heiti.ttf",
         "img/bg_ploy.png",
+        "img/ploy_bg_muban.png",
         "img/ploy_icon_1.png",
         "img/ploy_icon_2.png",
         "img/ploy_item_bg.png",

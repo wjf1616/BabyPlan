@@ -47,7 +47,7 @@ def scan_files(directory,prefix=None,postfix=None,discard=None):
 
 def run():
     # 资源预加载
-    resList = [".png",".jpg",".fnt",".ttf",".ExportJson",".tmx",".json"]
+    resList = [".png",".jpg",".fnt",".ExportJson",".tmx",".json"]
 
     # 暂时用不到的文件，放入丢弃池
     discardlist = ["src/AutoConfig.js","src/resource.js","src/common.js","src/AssetsManager.js"]
